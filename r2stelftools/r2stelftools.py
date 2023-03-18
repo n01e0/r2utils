@@ -22,6 +22,7 @@ target = str(pipe.cmdj('ij')['core']['file'])
 
 print('which toolchain?')
 toolchain = fzf.prompt(known_toolchain_list)[0]
+print(f'{toolchain} selected!')
 
 if toolchain not in known_toolchain_list and toolchain + '.json' not in known_toolchain_list:
     print(colored("toolchain not found", "red"))
