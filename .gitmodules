@@ -1,3 +1,3 @@
-[submodule "r2stelftool/stelftools"]
-	path = r2stelftool/stelftools
+[submodule "r2stelftools/stelftools"]
+	path = r2stelftools/stelftools
 	url = git@github.com:n01e0/stelftools
